@@ -1,0 +1,86 @@
+
+.header--title{
+  height: 70px;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header--title button{
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  left: 3vw;
+}
+
+.header--title h2{
+  color: #FFF;
+}
+
+.header-moreInfos{
+  width: 300px;
+  background-color: #FFF;
+  color: #021233;
+  border-radius: 8px;
+  margin-left: 3vw;
+  margin-bottom: 7px;
+  padding: 5px 4px;
+  line-height: 2rem;
+}
+
+.header-moreInfos ul{
+  list-style: none;
+  padding: 0 10px;
+  font-weight: 600;
+}
+
+.header-moreInfos ul li:not(:last-child){
+  border-bottom: 1px solid #021233;
+}
+
+.header-moreInfos ul li button{
+  border: none;
+  background-color:transparent;
+  height: 1.8rem;
+  width: 100%;
+  font-size: 17px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.header-notShowMenu{
+  display: none;
+}
+
+.header--title svg{
+  transition: all ease .3s;
+}
+
+.header--spinMenu svg{
+  transform: rotate(90deg);
+  width: 40px;
+  height: 40px;
+}
+
+.header--login{
+  position: absolute;
+  top: 0;
+  right: 3vh;
+  height: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.header--login span{
+  margin-right: 5px;
+  color: #FFF;
+}
+
+.header--login input{
+  width: 80px;
+}
+
+.header--login button{
+  margin-left: 5px;
+}

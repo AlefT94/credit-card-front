@@ -1,0 +1,70 @@
+.totalizador--content{
+  background-color: #FFF;
+  width: 95vw;
+  max-width: 800px;
+  height: 100px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.totalizador--left{
+  padding-left: 15px;
+  padding-top: 15px;
+}
+
+.totalizador--left h2{
+  margin-top: 10px;
+  color: #021233;
+}
+
+.totalizador--rigth{
+  display: flex;
+  flex-direction: column;
+}
+
+.totalizador--periodo{
+  display: flex;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.totalizador--periodo button{
+  background-color: transparent;
+  border: none;
+  height: 30px;
+  width: 30px;
+}
+
+.totalizador--bt1{
+  height: 25px;
+  margin-right: 10px;
+}
+
+.totalizador--bt2{
+  height: 25px;
+  margin-left: 10px;
+}
+
+.totalizador-add{
+  display: flex;
+  height: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.totalizador-add button{
+  border: none;
+  background-color: transparent;
+}
+
+.totalizador-add svg{
+  transition: all ease-in-out .2s;
+}
+
+.totalizador-add svg:hover{
+  height: 35px;
+  width: 35px;
+}

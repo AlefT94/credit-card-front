@@ -1,0 +1,27 @@
+.loader{
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  background: rgba(0,0,0, 0.7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 15%;
+  z-index: 99;
+}
+
+.loader--content svg{
+  animation: is-rotating 1.5s infinite;
+}
+
+.loader p{
+  color: #FFF;
+  font-size: 1.5rem;
+}
+
+@keyframes is-rotating {
+  to {
+      transform: rotate(1turn);
+  }
+}
