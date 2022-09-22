@@ -102,10 +102,16 @@ export default function DetalheDespesa({despesa, close}){
               <span>Categoria:</span>
               <select type='text' value={categoriaDespesa} onChange={(e)=>handleCategoria(e)}>
                 <option>Mercado</option>
-                <option>Lazer</option>
-                <option>Adiantamento</option>
                 <option>Almoço</option>
-                <option>Outras refeições</option>
+                <option>Alimentação</option>
+                <option>Despesa Pessoal</option>
+                <option>Outras</option>
+                <option>Contas</option>
+                <option>Transporte</option>
+                <option>Lazer</option>
+                <option>Vestuário</option>
+                <option>Esportes</option>
+                <option>Anuidade</option>
               </select>
             </div>
 
